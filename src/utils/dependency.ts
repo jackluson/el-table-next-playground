@@ -75,7 +75,7 @@ export const genImportMap = ({ vue, elementPlus }: Partial<Versions> = {}) => {
     },
     'el-table-next': {
       pkg: 'el-table-next',
-      version: '1.0.0-beta3',
+      // version: '1.0.0-beta3',
       path: '/dist/index.mjs',
       source: 'jsdelivr',
     },
