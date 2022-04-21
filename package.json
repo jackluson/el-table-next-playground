@@ -17,6 +17,9 @@
     "lint:fix": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --max-warnings 0 --fix",
     "release": "standard-version"
   },
+  "engines": {
+    "node": ">=16.9.0"
+  },
   "dependencies": {
     "@vue/repl": "^1.0.0",
     "@vueuse/core": "^8.2.5",
