@@ -41,8 +41,8 @@ export class ReplStore implements Store {
       }
     } else {
       files[welcomeFile.name] = new File(welcomeFile.name, welcomeFile.code)
-      files[mainFile.name] = new File(mainFile.name, mainFile.code, isHidden)
     }
+    files[mainFile.name] = new File(mainFile.name, mainFile.code, isHidden)
 
     this.state = reactive({
       mainFile: mainFile.name,
@@ -130,7 +130,6 @@ export class ReplStore implements Store {
         })
       )
     )
-
     return `#${utoa(data)}`
   }
 
